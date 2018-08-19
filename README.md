@@ -16,7 +16,9 @@
 ## Make a change
 |<span>||
 |:---|:---|
-|```git add -u```|Mark all changed tracked files as staged|
+|```git add -a```|Mark all, also untracked files as staged|
+|```git add -u```|Mark tracked changed files as staged|
+|```git commit -a -m"[commit message]"```|Commit all tracked files with a message|
 |```git commit -m"[commit message]"```|Commit changes|
 |```git cherry-pick [commit id]```|Apply specific change identified by commit id on current branch|
 |```git rebase --continue```|Continue rebase after resolve merge confict(s)|
@@ -87,3 +89,8 @@
 |```git stash branch [branch name] [stash number]```|Create new branch and apply stashed change with specific number|
 |```git --set-upstream [local branch name] origin/[remote branch name]```|Setup connection between local and remote branch|
 |```git --set-upstream origin [remote branch name]```|Setup connection between current and remote branch|
+
+## Help
+|<span>||
+|:---|:---|
+|```git command --help```|Git help on specific command|
