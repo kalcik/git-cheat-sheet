@@ -38,6 +38,7 @@
 |```git reset --mixed HEAD~1```|Reset changes from HEAD to penultimate commit, last commit changes are visible but _not_ staged|
 |```git reset --hard HEAD~1```|Reset changes from HEAD to penultimate commit, last commit are _not_ visible|
 |```git reset --hard origin\[branch name]```|Reset local changes from HEAD to last remote commit|
+|```git clean -d -f```|Clean all changes locally|
 
 ## Synchronize
 |<span>||
