@@ -16,9 +16,10 @@
 ## Make a change
 |<span>||
 |:---|:---|
-|```git add -a```|Mark all, also untracked files as staged|
-|```git add -u```|Mark tracked changed files as staged|
-|```git commit -a -m"[commit message]"```|Commit all tracked files with a message|
+|```git add .```|Mark only new and modified as staged|  
+|```git add -a```|Mark all (untracked, new, modified and changed) files as staged|
+|```git add -u```|Mark only tracked changed files as staged|
+|```git commit -am"[commit message]"```|Commit all tracked files with a message|
 |```git commit -m"[commit message]"```|Commit changes|
 |```git cherry-pick [commit id]```|Apply specific change identified by commit id on current branch|
 |```git rebase --continue```|Continue rebase after resolve merge confict(s)|
