@@ -17,7 +17,7 @@
 |<span>||
 |:---|:---|
 |```git add .```|Mark only new and modified as staged|  
-|```git add -a```|Mark all (untracked, new, modified and changed) files as staged|
+|```git add -A```|Mark all (untracked, new, modified and changed) files as staged|
 |```git add -u```|Mark only tracked changed files as staged|
 |```git commit -am"[commit message]"```|Commit all tracked files with a message|
 |```git commit -m"[commit message]"```|Commit changes|
